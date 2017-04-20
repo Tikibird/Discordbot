@@ -31,7 +31,7 @@ app.listen(app.get('port'), function() {
 ////////////////////////////////////////////////////////////////
 
 var bot = new Discord.Client({
-    token: "MjM4Nzg1ODAwNzY0OTE1NzEy.CurVwQ.3035GY3YxLw3VBKaDcpugL2V7v0",
+    token: "MzA0NDMxODQ0MTczMDIxMTg0.C9mjzA.ducn_qzx8zgMmcRHXISWQuwSBOM",
     autorun: true
 });
 
@@ -194,7 +194,7 @@ bot.on('message', function(user, userID, channelID, message, event) {
       //have basic commands here
       if(message == "help")
       {
-        SendBotMessage(user, userID, channelID, "call setchannel; In the channel you wish Emerald Bot to listen for commands.");
+        SendBotMessage(user, userID, channelID, "call setchannel; In the channel you wish Tikibotte to listen for commands.");
       }
       else if(message == "setchannel")
       {
